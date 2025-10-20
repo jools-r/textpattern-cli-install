@@ -115,7 +115,7 @@ Depending on your connection and computer, this usually takes less than a minute
 Your site is ready to go: open it in your browser and sign in to the admin area using the login details you specified.
 
 
-*Example with [Laravel Valet](https://laravel.com/docs/valet) on a Mac*
+**Example with [Laravel Valet](https://laravel.com/docs/valet) on a Mac**
 
 Laravel Valet sets up a low-overhead always-on web server with php and mysql running as background services. It maps any folder in the `~/Sites` folder to the site url `name-of-folder.test` making it very easy to create new sites. You just need [git](https://git-scm.com/downloads) and [jq](https://jqlang.org/download/) already installed on your system. If you have setup the install script for system-wide use, spinning up a new site is as easy as:
 
@@ -127,7 +127,7 @@ Laravel Valet sets up a low-overhead always-on web server with php and mysql run
 Your site is installed and immediately reachable in your browser at `http://name-of-folder.test`. 
 
 
-*Bonus: set up an alias for easier use*
+**Bonus: set up an alias for easier use**
 
 * Open a Terminal window, and enter `vim .zshrc` to open the zsh shell environment variable settings file.
 * Press `i` to begin editing. On a free line enter `alias setup_txp="~/bin/setup_textpattern.zsh"` (adapt to match where you saved your script).
@@ -150,7 +150,7 @@ Your site is installed and immediately reachable in your browser at `http://name
 ### Adapting your site’s start configuration
 
 * Extend the `setup_textpattern.zsh` script to copy in desired test files or insert a pre-prepared .sql file to the database with initial settings.
-* Supply a different `content_directory` to start with your own initial content. By default, the setup script uses the details supplied in the `articles`, `themes` and `data` folders in the [/textpattern/setup/(https://github.com/textpattern/textpattern/tree/dev/textpattern/setup/) folder. Follow this pattern for your own details.
+* Supply a different `content_directory` to start with your own initial content. By default, the setup script uses the details supplied in the `articles`, `themes` and `data` folders in the [/textpattern/setup/](https://github.com/textpattern/textpattern/tree/dev/textpattern/setup/) folder. Follow this pattern for your own details.
 
 ### Adapting for offline use or non-git-capable servers (TODO)
 
@@ -164,9 +164,9 @@ Your site is installed and immediately reachable in your browser at `http://name
 
 ## Credits
 
-The Textpattern devs and team, especially [Pete Cooper](https://github.com/petecooper) for his example of the demo installer and [makss](https://github.com/makss) for adding the cli installation facility to the setup installer back in 2017.
+The Textpattern devs and team, especially [Pete Cooper](https://github.com/petecooper) for his example of the demo installer and [makss](https://github.com/makss) for adding the CLI installation facility to the setup installer back in 2017.
 
 
 ## Changelog
 
-* v1 – Initial version – 20 Oct 2025
+* v1.0 – Initial version – 20 Oct 2025
