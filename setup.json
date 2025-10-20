@@ -1,0 +1,26 @@
+{
+    "site": {
+        "language_code": "en",
+        "public_url": "your-sitename.test",
+        "admin_url": "",
+        "admin_theme": "hive",
+        "public_theme": "four-point-nine",
+        "content_directory": "",
+        "cookie_domain": ""
+    },
+    "database": {
+        "user": "your_mysql_user",
+        "password": "your_mysql_pass",
+        "host": "localhost",
+        "db_name": "your_sitename_db",
+        "charset": "utf8mb4",
+        "table_prefix": "",
+        "client_flags": ""
+    },
+    "user": {
+        "full_name": "Your Name",
+        "email": "you@your-sitename.test",
+        "login_name": "yourusername",
+        "password": "youruserpassword"
+    }
+}
