@@ -36,7 +36,7 @@ TO_DELETE=(
 set -e  # Exit on errors
 
 # 1. Clone the repo
-git clone "$REPO_URL" --branch "$REPO_BRANCH"
+git clone "$REPO_URL" --branch "$REPO_BRANCH" --depth 1
 
 # 2. Delete listed files/folders
 for item in $TO_DELETE; do
